@@ -1,0 +1,8 @@
+
+/* This file is left intentionally minimal as we're using Tailwind for styling */
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
