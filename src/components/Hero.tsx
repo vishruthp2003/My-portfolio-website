@@ -1,5 +1,5 @@
-
 import { useEffect, useRef } from 'react';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Hero = () => {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -24,16 +24,6 @@ const Hero = () => {
     };
   }, []);
 
-  const handleScrollDown = () => {
-    const aboutSection = document.getElementById('about');
-    if (aboutSection) {
-      window.scrollTo({
-        top: aboutSection.offsetTop - 80,
-        behavior: 'smooth'
-      });
-    }
-  };
-
   return (
     <div 
       ref={heroRef}
@@ -49,12 +39,33 @@ const Hero = () => {
           </span>
         </h1>
             
-        <button 
-          onClick={handleScrollDown}
-          className="glass-morphism px-8 py-3 rounded-full text-white font-medium transition duration-300 hover:bg-white/10"
+        <a 
+          href="/resume.pdf" 
+          download 
+          className="glass-morphism px-8 py-3 rounded-full text-white font-medium transition duration-300 hover:bg-white/10 inline-block"
         >
-          Discover More
-        </button>
+          Download CV
+        </a>
+
+        {/* Social Icons */}
+        <div className="flex justify-center gap-6 mt-6">
+          <a 
+            href="https://github.com/Vishruthp2003" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-white text-2xl hover:text-gray-300 transition"
+          >
+            <FaGithub />
+          </a>
+          <a 
+            href="https://www.linkedin.com/in/Vishruth-P/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-white text-2xl hover:text-blue-300 transition"
+          >
+            <FaLinkedin />
+          </a>
+        </div>
       </div>
       
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-pulse-slow">
@@ -77,3 +88,5 @@ const Hero = () => {
 };
 
 export default Hero;
+
+
