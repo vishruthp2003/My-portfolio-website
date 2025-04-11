@@ -14,9 +14,9 @@ const projectsData = [
   {
     title: 'Portfolio Website',
     description: 'A personal portfolio website that showcase my education, projects, skills, certifications and achievements.',
-    tags: ['HTML', 'CSS', 'JavaScript', 'React'],
-    link: 'https://github.com/vishruthp2003',
-    source: 'https://github.com/vishruthp2003',
+    tags: ['Vite','HTML', 'TailwindCSS', 'TypeScript', 'React'],
+    link: 'https://my-portfolio-website-7ybj-512jvj2fn-vishruthp2003s-projects.vercel.app/',
+    source: 'https://github.com/vishruthp2003/My-portfolio-website',
     image: '/lovable-uploads/portfolioImage.png'
   },
   {
