@@ -40,7 +40,7 @@ const Hero = () => {
         </h1>
             
         <a 
-          href="/lovable-uploads/Vishruth_p.pdf" 
+          href="/lovable-uploads/Vishruth_P.pdf" 
           download 
           className="glass-morphism px-8 py-3 rounded-full text-white font-medium transition duration-300 hover:bg-white/10 inline-block"
         >
