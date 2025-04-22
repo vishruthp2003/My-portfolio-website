@@ -38,19 +38,6 @@ const Footer = () => {
           ))}
         </div>
         
-        {/* Social Links */}
-        <div className="flex justify-center space-x-6 mb-8">
-          {['GitHub', 'LinkedIn', 'Instagram'].map((social) => (
-            <a
-              key={social}
-              href="#"
-              className="text-gray-400 hover:text-white transition-colors"
-            >
-              {social}
-            </a>
-          ))}
-        </div>
-        
         {/* Copyright */}
         <div className="text-center text-gray-500 text-sm">
           <p>&copy; {new Date().getFullYear()} Vishruth Pobbathi. All rights reserved.</p>
