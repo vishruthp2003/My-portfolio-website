@@ -40,7 +40,7 @@ const Footer = () => {
         
         {/* Social Links */}
         <div className="flex justify-center space-x-6 mb-8">
-          {['GitHub', 'LinkedIn', 'Twitter', 'Instagram'].map((social) => (
+          {['GitHub', 'LinkedIn', 'Instagram'].map((social) => (
             <a
               key={social}
               href="#"
@@ -53,7 +53,7 @@ const Footer = () => {
         
         {/* Copyright */}
         <div className="text-center text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} John Doe. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Vishruth Pobbathi. All rights reserved.</p>
           <p className="mt-1">Designed with precision and care.</p>
         </div>
       </div>
